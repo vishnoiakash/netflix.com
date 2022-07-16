@@ -163,7 +163,7 @@ font-size: 1.1rem;
 
 @media screen and (max-width:768px) {
     .banner-area{
-        height: 65vh;
+        height: 75vh;
     }
     .logo img{
         width: 100px;
@@ -184,35 +184,40 @@ font-size: 1.1rem;
         width: 85px;
     }
     .bannertext{
-        margin-top: 65px;
+        margin-top: 25px;
+        width: 100%;
     }
     .bannertext h1{
         width: 100%;
     font-size: 29px;
-    line-height: 45px;
+    line-height: 38px;
     }
     .bannertext h2{
         width: 100%;
-        font-size: 18px;
+        font-size: 16px;
+        line-height: 0px;
+        font-weight: normal;
         }
         .form{
             margin: 0;
             flex-direction: column;
         }
         .form-area h3{
+            width: 90%;
             padding-top: 20px;
-            line-height: 23px;
-            font-size: 14px;
+            margin: 0 40px;
+            line-height: 20px;
+            font-size: 15px;
         }
         .form input{
             margin-top: 10px;
-            width: 330px ;
-            height: 50px;
+            width: 315px ;
+            height: 45px;
         }
         .btn{
-            margin-top: 20px;
-            width: 150px;
-            height: 50px;
+            margin-top: 10px;
+            width: 130px;
+            height: 45px;
             font-size: 15px;
         }
 }
