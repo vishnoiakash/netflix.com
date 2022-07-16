@@ -195,7 +195,7 @@ font-size: 1.1rem;
     z-index: 2;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:950px) {
     .banner-area {
         height: 75vh;
     }
