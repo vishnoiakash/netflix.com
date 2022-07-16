@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;900&family=Varela&display=swap');
+/* font-family: 'Martel Sans', sans-serif; */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+.banner-area{
+    background-image: url(images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+}
+.overlay{
+    background-color: #000;
+    opacity:0.6;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.logo{
+    z-index: 3;
+    position: relative;
+}
+.logo img{
+    padding: 30px 0 0 60px;
+    width : 130px;
+    
+}
+
+.language{
+    margin: 0 50px;
+    position: absolute;
+    right: 130px;
+    z-index: 3;
+}
+#language{
+    text-align: center;
+    font-family: 'Varela', sans-serif;
+    font-weight: bolder;
+    font-size: 1rem;
+    height: 35px;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 0.2;
+}
+#language option{
+    background-color: rgba(95, 95, 95, 0.678);
+
+}
+.signin{
+    margin: 0 50px;
+    position: absolute;
+    right: 40px;
+    z-index: 3;
+    margin: 0 20px;
+}
+.signin-button{
+    font-size: 1rem;
+    height: 35px;
+    width: 90px;
+    font-weight: bolder;
+    color: white;
+    background-color: #e50914;
+    border: 0;
+    border-radius: 2px ;
+    cursor: pointer;
+}
+.bannertext{
+
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 120px auto 0 auto;
+    z-index: 3;
+    position: relative;
+}
+.bannertext h1{
+    width: 70%;
+    font-size: 3.125rem;
+    font-family: 'Martel Sans', sans-serif;
+    text-align: center;
+    line-height: 57px;
+}
+.bannertext h2{
+    width: 80%;
+    font-size: 1.625rem;
+    font-family: 'Martel Sans', sans-serif;
+    text-align: center;
+    line-height: 0;
+    margin-top: 5px ;
+}
+.form-area{
+    font-family: 'Martel Sans', sans-serif;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    position: relative;
+}
+.form-area h3{
+font-size: 1.150rem ;
+font-weight: normal;
+margin-bottom: 10px;
+text-align: center;
+margin: 0 80px;
+}
+.form
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.form input{
+    width: 450px;
+    height: 56px;
+    font-size: 1rem;
+    padding-left: 20px;
+    border: 0;
+    border-radius: 2px 0 0 2px;
+}
+.btn{
+height: 58px;
+width: 200px;
+background-color: #e50914;
+color: white;
+font-size: 1.5rem;
+font-weight:normal;
+cursor: pointer;
+border: 0;
+border-radius: 0 2px 2px 0;
+}
+.btn i {
+    padding-left: 10px;
+}
+.btn:hover{
+    background-color:#f70915 ;
+}
+.fa-chevron-right{
+font-size: 1.1rem;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .banner-area{
+        height: 65vh;
+    }
+    .logo img{
+        width: 100px;
+        padding: 30px;
+    }
+    .signin{
+        margin-right: -10px;
+    }
+    .language{
+        margin-right: -10px;
+    }
+    .signin-button{
+        width: 68px;
+        height: 30px;
+    }
+    #language{
+        height: 30px;
+        width: 85px;
+    }
+    .bannertext{
+        margin-top: 65px;
+    }
+    .bannertext h1{
+        width: 100%;
+    font-size: 29px;
+    line-height: 45px;
+    }
+    .bannertext h2{
+        width: 100%;
+        font-size: 18px;
+        }
+        .form{
+            margin: 0;
+            flex-direction: column;
+        }
+        .form-area h3{
+            padding-top: 20px;
+            line-height: 23px;
+            font-size: 14px;
+        }
+        .form input{
+            margin-top: 10px;
+            width: 330px ;
+            height: 50px;
+        }
+        .btn{
+            margin-top: 20px;
+            width: 150px;
+            height: 50px;
+            font-size: 15px;
+        }
+}
