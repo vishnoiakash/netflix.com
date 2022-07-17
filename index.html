@@ -25,7 +25,7 @@
                 </select>
             </div>
             <div class="signin">
-                <button class="signin-button">Sign In</button>
+                <a href="https://www.netflix.com/in/login"><button class="signin-button">Sign In</button></a>
             </div>
         </header>
         <div class="overlay"></div>
@@ -36,12 +36,12 @@
         </div>
         <div class="form-area">
             <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
-            <div class="form">
+            <div class="form" id="submit">
                 <form action="_blank">
-                    <input type="email" name="email" id="email" placeholder="Email address">
+                    <input type="email" name="email" id="email" placeholder="Email address" required>
                 </form>
-
-                <button class="btn">Get Started<i class="fa-solid fa-chevron-right"></i></button>
+<a href="https://www.netflix.com/in/login">
+                <button type="submit" id="submit" class="btn">Get Started<i class="fa-solid fa-chevron-right"></i></button></a>
             </div>
         </div>
 
@@ -115,7 +115,7 @@
 
         <div class="footer">
             <footer>
-                <H3>Questions? Call 000-800-040-1843</H3>
+                <H3>Questions?  Call <a href="tel:+000-800-040-1843"> 000-800-040-1843</a></H3>
                 <table>
                     <tr>
                         <td>FAQ</td><td>Help Centre</td><td>Account</td><td>Media Centre</td>
